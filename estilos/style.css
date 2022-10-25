@@ -1,5 +1,70 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+/* 
+    1- #B5F44A - Green Lizard
+    2- #70EE9C - Light Green
+    3- #79AEA3 - Green Sheen
+    4- #434371 - Purple Navy
+    5- #484041 - Dark Liver
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #B5F44A;
+    --cor1: #70EE9C;
+    --cor2: #79AEA3;
+    --cor3: #434371;
+    --cor4: #5f5355;
+    
+    --fonte-p: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-d: 'Bebas Neue', sans-serif;
+    --fonte-a: 'Android', sans-serif;
+
+}
+html{
+    background-image: linear-gradient(to top,#749b31,#5f5355 );
+}
+
+header{
+    color: white;
+}
+
+nav{
+    background-color: white;
+}
+
+
+header > h1{
+    font-family: var(--fonte-d);
+
+}
 body{
-    background-color: #FFE6E8 ;
+    background-color: var(--cor4);
+    font-family: var(--fonte-p);
+    
+}
+main{
+    background-color:white;
+}
+
+article > h1{
+    font-family: var(--fonte-a);
+    color: #70EE9C;
+}
+
+article > h2{
+    font-family: var(--fonte-a);
+    color: #70EE9C;
 }

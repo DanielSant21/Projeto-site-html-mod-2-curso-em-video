@@ -55,7 +55,8 @@ nav{
     text-align: center;
 }
 nav > a{
-    margin: 0%;
+    margin: 1%;
+    margin-bottom: 5%;
     color: var(--cor1);
     text-decoration: none;
     transition-duration: 0.5s;

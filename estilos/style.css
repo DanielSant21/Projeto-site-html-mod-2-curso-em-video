@@ -55,7 +55,7 @@ nav{
     text-align: center;
 }
 nav > a{
-    margin: 3%;
+    margin: 1%;
     color: var(--cor1);
     text-decoration: none;
     transition-duration: 0.5s;
@@ -68,6 +68,7 @@ nav > a:hover {
 }
 
 header > p{
+    text-indent: 0%;
     margin-bottom: 1%;
 }
 header > h1{
@@ -90,9 +91,24 @@ main{
     margin: auto;
     margin-top: 1%;
     padding: 20px;
-    max-width: 80%;
-    min-width: 50%;
+    max-width: 75%;
+    min-width: 40%;
     background-color:rgb(255, 245, 245);
+}
+
+a{
+    border-radius: 5px;
+    padding: 5px;
+    color: #749b31;
+    text-decoration: none;
+    background-color: #70ee9c7c;
+    transition-duration: 00.5s;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: #749b31;
 }
 
 article > h1{
@@ -107,6 +123,18 @@ article > h2{
     color: rgb(255, 245, 245);
     background-image: linear-gradient(to right , #70EE9C, rgb(255, 245, 245) );
 }
+
+#gustavo{
+    background-color: transparent;
+    color: white;
+    transition: 00.5s;
+}
+
+#gustavo:hover{
+    background-color: white;
+    color: black;
+}
+
 footer{
     margin-top: 1%;
     text-align: center;
@@ -148,4 +176,17 @@ aside{
     padding: 1%;
     border-radius: 15px;
     
+}
+
+aside > h3{
+    background-color: white;
+    color: black;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
 }
